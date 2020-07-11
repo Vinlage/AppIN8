@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::resource('users', 'UserController');
+
+// Route::delete('users/{$id}', 'UserController@delete')->name('users.delete');
+//Route::post('users', 'UserController@insert')->name('users.insert');
+// Route::get('users/{id}', 'UserController@show')->name('users.show');
+// Route::get('users', 'UserController@index')->name('users.index');
+
 Route::get('/', function () {
     return view('welcome');
 });
