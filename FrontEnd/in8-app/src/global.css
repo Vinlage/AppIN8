@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Helvetica Ultralight";
+    src: url("Assets/Fonts/HelveticaUltraLt_0.ttf") format('truetype');
+}
+
+body {
+    margin: 0px;
+}

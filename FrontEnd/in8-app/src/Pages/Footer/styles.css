@@ -1,0 +1,23 @@
+.about{
+    position: absolute;
+    display: block;
+    color: #e8e8e8;
+    text-align: center;
+    margin-top: 80px;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 769px) {
+    .image-footer{
+        height: 314px;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .image-footer{
+        height: 314px;
+        width: 100%;
+        content: url('../../Assets/Images/rodape-mobile.jpg');
+    }
+}
